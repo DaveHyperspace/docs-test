@@ -1,0 +1,14 @@
+{
+  "-- Block": {
+    "type": "separator",
+    "title": "Block"
+  },
+  "block-1": "page-1",
+  "page-2": "page-2",
+  "-- Fee": {
+    "type": "separator",
+    "title": "Fee"
+  },
+  "fee-1": "fee-1",
+  "fee-2": "fee-2"
+}

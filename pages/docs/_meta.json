@@ -1,0 +1,35 @@
+{
+  "index": "Introduction",
+  "why": "Why Hyperspace",
+  "getting-started": "Getting Started",
+  "guide": "",
+  "-- Core": {
+    "type": "separator",
+    "title": "Core"
+  },
+  "core1": "core-page-1",
+  "core2": "core-page-2",
+  "core3": "custom-core",
+
+  "-- ": {
+    "type": "separator",
+    "title": ""
+  },
+
+  "actions": "",
+  "wallet": "",
+  "contract": "",
+  "-- More": {
+    "type": "separator",
+    "title": "More"
+  },
+  "about-link": {
+    "title": "About Hyperspace",
+    "href": "/about"
+  },
+  "discord": {
+    "title": "Join Chat ↗",
+    "href": "https://hyperspace.foundation/discord",
+    "newWindow": true
+  }
+}

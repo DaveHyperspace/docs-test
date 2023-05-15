@@ -1,11 +1,46 @@
-# Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+---
+title: Welcome to Our Documentation
+description: Discover guides, tutorials, and reference material to help you learn and understand our product.
+---
 
-## What is Nextra?
+import Link from 'next/link'
+import styles from './index.module.css'
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
 
-## Documentation
+<div className="flex flex-col min-h-screen bg-gray-100 text-gray-800">
+  <div className="flex-1 container mx-auto p-4">
+    <h1 className="text-5xl font-bold text-center my-5">Welcome to Our Documentation</h1>
+    <p className="text-xl text-center mb-10">The next generation blockchain lorem Ipsum with everything you love</p>
+    <Link href="/docs">
+      <div className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300">
+        Get started →
+      </div>
+    </Link>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+      <div className="bg-white p-4 rounded shadow">
+        <h3 className="text-lg font-bold mb-2">Getting Started</h3>
+        <p>Learn how to get started with our product.</p>
+        <Link href="/docs/getting-started/introduction">
+          <div className="text-blue-500 hover:underline">Read the docs →</div>
+        </Link>
+      </div>
+      <div className="bg-white p-4 rounded shadow">
+        <h3 className="text-lg font-bold mb-2">Guides</h3>
+        <p>Discover the basics of our product and how to use the main features.</p>
+        <Link href="/docs/guides/introduction">
+          <div className="text-blue-500 hover:underline">Read the docs →</div>
+        </Link>
+      </div>
+      <div className="bg-white p-4 rounded shadow">
+        <h3 className="text-lg font-bold mb-2">API Reference</h3>
+        <p>Detailed descriptions of our API endpoints and responses.</p>
+        <Link href="/docs/api/introduction">
+          <div className="text-blue-500 hover:underline">Read the docs →</div>
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+
+
