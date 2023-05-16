@@ -13,6 +13,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Footer text here',
   },
+  sidebar: { defaultMenuCollapseLevel: 1, toggleButton: true },
 };
 
 export default config;
